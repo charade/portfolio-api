@@ -31,6 +31,7 @@ router.post('/',(req, res) => {
         });
         return;
     };
+    //email not valid
     res.status(400).json({error : "bad email"})
 });
 
